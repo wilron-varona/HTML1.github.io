@@ -1,0 +1,242 @@
+<!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        table{
+            border-spacing: 0;
+        }
+        td{
+            padding: 0;
+        }
+        img{
+            border: 0;
+        }
+        * {
+         box-sizing: border-box;
+        }
+        .wrapper{
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: antiquewhite;
+            font-family: sans-serif;
+        }
+        .line{
+            height: 8px;
+            background-color: black;
+        }
+
+        .top-banner{
+            display: flex;
+            width: 100%;
+            max-width: 600px;
+            justify-content: space-between;
+        }
+        .left-logo{
+            flex: 50%;
+            padding: 20px 0;
+        }
+
+        .right-logo{
+            flex: 50%;
+            padding: 20px 0;
+        }
+        .images{
+            height: 40px;
+        }
+        .logo-container{
+            display: flex;
+            justify-content: center;
+        }
+        .logo-container2{
+            display: flex;
+            justify-content: center;
+        }
+        .html-body{
+            padding: 10px;
+        }
+
+        .html-body2{
+            padding-top: 5px;
+            padding-bottom: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+        }
+
+        .btn-enroll{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: bolder;
+        }
+
+        .three-columns{
+            display: flex;
+        }
+        .footer{
+            padding: 20px;
+            background: rgb(26, 26, 26);
+            color: white;
+        }
+        @media(max-width:450px){
+            .three-columns{
+            display: block;
+            font-size: 90%;
+        }
+            .html-body{
+            font-size: 90%;
+            }
+            .html-body2{
+            font-size: 90%;
+            }
+
+        }
+        @media(max-width:320px){
+            .images{
+            height: 20px;
+            } 
+        }
+        @media(min-width:321px) and (max-width:380px){
+            .left-logo{
+            width:100%;
+            }
+            .right-logo{
+            width:100%;
+            }
+            .images{
+            height: 30px;
+            }
+        }
+        @media(min-width:381px) and (max-width:430px){
+            .images{
+            height: 35px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <center class="wrapper">
+<!--top line-->
+        <div class="line"></div>
+
+<!--header-->
+        <div class="top-banner">
+
+            <div class="left-logo">
+                <a href="#"><img src="/logo.png" alt="" class="images"></a>
+            </div>
+            <div class="right-logo">
+                <div class="logo-container">
+                    <a href=""><img src="/facebook.png" alt="" class="images"></a>
+                    <a href=""><img src="/twitter.png" alt="" class="images"></a>
+                    <a href=""><img src="/youtube.png" alt="" class="images"></a>
+                    <a href=""><img src="/linkedin.png" alt="" class="images"></a>
+                    <a href=""><img src="/instagram.png" alt="" class="images"></a>
+                </div>
+            </div>
+
+        </div>
+
+<!--top line-->
+        <div class="line"></div>
+
+<!--banner-->
+        <div class="mid-banner">
+
+            <a href="#"><img src="/banner.jpg" alt="" width="100%"></a>
+
+        </div>
+
+<!--top line-->
+        <div class="line"></div>
+
+<!--html body-->
+        <div class="html-body">
+
+            <h1>HTML Email sample</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga, vitae veritatis maxime dolorem mollitia harum voluptatum, distinctio nostrum omnis adipisci animi. Rem ex quo fugit error sunt totam a.
+            Hic fuga voluptatem numquam quis amet. Architecto, placeat dolor autem, repellendus odit quod, ex voluptatum nobis et quaerat commodi sequi cumque ipsum. Eaque voluptatibus porro omnis exercitationem, perferendis saepe nemo.</p>
+
+        </div>
+
+<!--top line-->
+        <div class="line"></div>
+
+<!--3 columns flex-->
+        <div class="three-columns">
+
+            <div class="card">
+
+                <a href="#"><img src="/marketing.png" alt="" width="100px"></a>
+                <h2 style="line-height: 0;">Marketing</h2>
+                <p style="padding: 10px 20px; margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur elit.</p>
+
+            </div>
+
+            <div class="card">
+
+                <a href="#"><img src="/development.png" alt="" width="100px"></a>
+                <h2 style="line-height: 0;">Marketing</h2>
+                <p style="padding: 10px 20px; margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur elit.</p>
+
+            </div>
+
+            <div class="card">
+
+                <a href="#"><img src="/design.png" alt="" width="100px"></a>
+                <h2 style="line-height: 0;">Marketing</h2>
+                <p style="padding: 10px 20px; margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur elit.</p>
+
+            </div>
+
+        </div>
+
+<!--top line-->
+        <div class="line"></div>
+
+<!--html body2-->
+        <div class="html-body2">
+
+            <h1>Enroll now in our Course!</h1>
+            <p style="margin-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fuga, vitae veritatis maxime dolorem mollitia harum voluptatum, distinctio nostrum omnis adipisci animi. Rem ex quo fugit error sunt totam a.
+            Hic fuga voluptatem numquam quis amet. Architecto, placeat dolor autem, repellendus odit quod, ex voluptatum nobis et quaerat commodi sequi cumque ipsum. Eaque voluptatibus porro omnis exercitationem, perferendis saepe nemo.</p>
+            <a href="" class="btn-enroll">Enroll now!</a>
+
+        </div>
+<!--top line-->
+        <div class="line"></div>
+
+<!--footer-->
+         <div class="footer">
+
+            <a href="#"><img src="/logo.png" alt="" width="200px"></a>
+            <p>Example Email Template</p>
+            <p>January 2024</p>
+            <div class="logo-container2">
+                <a href=""><img src="/facebook.png" alt="" class="images"></a>
+                <a href=""><img src="/twitter.png" alt="" class="images"></a>
+                <a href=""><img src="/youtube.png" alt="" class="images"></a>
+                <a href=""><img src="/linkedin.png" alt="" class="images"></a>
+                <a href=""><img src="/instagram.png" alt="" class="images"></a>
+            </div>
+
+         </div>
+
+<!--top line-->
+        <div class="line"></div>
+
+    </center>
+</body>
+</html>
